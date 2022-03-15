@@ -24,17 +24,19 @@ body{
 header{
     color: aliceblue;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 header p{
     font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    padding-bottom: 75px;
 }
 
 h1 {
     margin: auto;
     max-width: 560px;
-    font-size: 80px;
+    font-size: 70px;
     font-family: var(--titulo);
 }
 
@@ -58,6 +60,7 @@ p{
     background-attachment: fixed;
     color: aliceblue;
     height: 320px;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.692);
 
     position: relative;
 }
@@ -69,6 +72,7 @@ p{
     background-position: center center;
     color: aliceblue;
     height: 320px;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.692);
 
     position: relative;
 }
