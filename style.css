@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'titulos';
+    src: url(fonts/PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'paragrafos';
+    src: url(fonts/PatrickHandSC-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --titulo: 'titulos', Courier, monospace;
+    --paragrafo: 'paragrafos', Courier, monospace;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: var(--titulo);
+}
+
+main{
+    background-color: aliceblue;
+}
+
+p{
+    padding: 50px 15px 50px 15px;
+    font-family: var(--paragrafo);
+    font-size: 30px;
+}
+
+.emfrente{
+    background-color: aliceblue;
+}
+
+#img1{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+#img2{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+#sombra1{
+
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
